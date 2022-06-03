@@ -1,0 +1,102 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0; 
+  margin-top:25px; 
+  background:#FFED40; 
+  height: 50px; 
+  font-family: 'Fira Sans', sans-serif;
+}
+a {
+  text-decoration: none; 
+  background:#FFED40; 
+  color: black; 
+  padding:0px 15px; 
+  font-family: arial; 
+  line-height:50px; 
+  display: block; 
+  border-right: 1px solid #A69600;
+  -moz-transition: all 0.3s 0.01s ease; 
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+  font-family: 'Fira Sans', sans-serif;
+}
+a:hover {
+  background:#BFB130;
+}
+li {
+  float:left; 
+  position:relative; 
+}
+     
+   
+    li > ul {
+        position:absolute;
+        top:25px;
+        display:none;   
+    }
+     
+    
+    li:hover > ul {
+        display:block; 
+        width:250px;        
+    }
+   li:hover > ul > li {
+        float:none; 
+    }
+
+body {
+  background-image: url(https://res.cloudinary.com/ewgeynew/image/upload/v1652374729/webb/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82_12_ap1kks.png);
+}
+
+#hex {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  float: left;
+  font-size: 30px;
+}
+
+#pic1 {
+  height: 25px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+#ul1 {
+  z-index:10;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  background: white;
+  padding: 5px;
+  padding-left: 25px;
+  margin-left: 15px;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  background: white;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  padding-right: 10px;
+}
+
+#pic2, #pic3 {
+  height: 80%;
+  padding: 20px;
+  padding-left: 120px;
+}
+
+.footer {
+  background-color: #04396C;
+  padding-left: 15px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  padding-right: 10px;
+  color: #26527C;
+  margin-top: 10px;
+}
